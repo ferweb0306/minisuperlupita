@@ -25,17 +25,18 @@
     </div>
   </nav>
 
-  <!-- Carrusel -->
+<!-- Carrusel -->
+<div class="container my-4">
   <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-inner">
+    <div class="carousel-inner rounded shadow">
       <div class="carousel-item active">
-        <img src="img/foto1.jpeg" class="d-block w-100" alt="Imagen 1">
+        <img src="img/foto1.jpeg" class="d-block w-100 img-fluid" alt="Imagen 1" style="max-height: 500px; object-fit: cover;">
       </div>
       <div class="carousel-item">
-        <img src="img/foto2.jpeg" class="d-block w-100" alt="Imagen 2">
+        <img src="img/foto2.jpeg" class="d-block w-100 img-fluid" alt="Imagen 2" style="max-height: 500px; object-fit: cover;">
       </div>
       <div class="carousel-item">
-        <img src="img/foto3.jpeg" class="d-block w-100" alt="Imagen 3">
+        <img src="img/foto3.jpeg" class="d-block w-100 img-fluid" alt="Imagen 3" style="max-height: 500px; object-fit: cover;">
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
@@ -45,6 +46,7 @@
       <span class="carousel-control-next-icon"></span>
     </button>
   </div>
+</div>
 
   <!-- Productos -->
   <section id="productos" class="py-5">
@@ -53,7 +55,7 @@
       <div class="row">
         <div class="col-md-4">
           <div class="card">
-            <img src="https://via.placeholder.com/400x250?text=Frutas" class="card-img-top" alt="Frutas">
+            <img src="img/productos/frutas.jpg" class="card-img-top" alt="Frutas">
             <div class="card-body text-center">
               <h5 class="card-title">Frutas</h5>
               <p class="card-text">Frescas y de temporada.</p>
@@ -62,7 +64,7 @@
         </div>
         <div class="col-md-4">
           <div class="card">
-            <img src="https://via.placeholder.com/400x250?text=Abarrotes" class="card-img-top" alt="Abarrotes">
+            <img src="img/productos/abarrotes.jpg" class="card-img-top" alt="Abarrotes">
             <div class="card-body text-center">
               <h5 class="card-title">Abarrotes</h5>
               <p class="card-text">Todo lo básico para tu despensa.</p>
@@ -71,7 +73,7 @@
         </div>
         <div class="col-md-4">
           <div class="card">
-            <img src="https://via.placeholder.com/400x250?text=Lacteos" class="card-img-top" alt="Lácteos">
+            <img src="img/productos/lacteos.jpg" class="card-img-top" alt="Lácteos">
             <div class="card-body text-center">
               <h5 class="card-title">Lácteos</h5>
               <p class="card-text">Leche, quesos y más productos frescos.</p>
@@ -87,7 +89,18 @@
     <div class="container text-center">
       <h2>Ubicación</h2>
       <p>📍 Calle Ejemplo #123, Colonia Centro, Guadalajara, Jalisco</p>
+<!--
       <iframe src="https://www.google.com/maps/embed?pb=!1m18..." width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+-->
+<iframe 
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3732.356814153051!2d-103.3505153246729!3d20.67467600116648!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428b1fa3b0460df%3A0x843d06f0e0a9bb8d!2sC.%20Pedro%20Moreno%20610%2C%20Zona%20Centro%2C%2044100%20Guadalajara%2C%20Jal.!5e0!3m2!1ses!2smx!4v1693658765432!5m2!1ses!2smx" 
+  width="100%" 
+  height="300" 
+  style="border:0;" 
+  allowfullscreen="" 
+  loading="lazy" 
+  referrerpolicy="no-referrer-when-downgrade">
+</iframe>
     </div>
   </section>
 
